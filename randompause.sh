@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCRIPT_NAME="/Users/atash/projects/randompause/randompause.py"
+SCRIPT_NAME="$PWD/randompause.py"
 
 case $1 in
     start)
