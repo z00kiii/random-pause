@@ -3,7 +3,8 @@ import time
 from random import randint
 import os
 
-sound_file_path = os.path.abspath('randompause_muffled_sound.mp3')
+script_dir = os.path.dirname(os.path.abspath(__file__))
+sound_file_path = os.path.join(script_dir, 'randompause_muffled_sound.mp3')
 
 while True:
     work_time = randint(180, 240)

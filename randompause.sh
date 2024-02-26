@@ -1,6 +1,7 @@
 #!/bin/bash
 
-SCRIPT_NAME="$PWD/randompause.py"
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+SCRIPT_NAME="$SCRIPT_DIR/randompause.py"
 
 case $1 in
     start)
